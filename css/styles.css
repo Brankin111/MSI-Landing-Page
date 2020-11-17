@@ -278,16 +278,6 @@ h2:after {
     transform: rotate(360deg);
 }
 
-.mascot-section {
-    text-align: center;
-    padding: 6rem 2rem;
-}
-
-.mascot-section-header {
-    max-width: 640px;
-    margin: 0 auto 6rem;
-}
-
 .mascot-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -308,6 +298,40 @@ h2:after {
 
 .mascot-title:hover {
     color: #de1e24;
+}
+
+/******** MASCOT CAROUSEL ********/
+
+.mascot-section-header {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.mascot-section {
+    text-align: center;
+    padding: 6rem 2rem 0;
+}
+
+h5 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.carousel-caption {
+    color: #000;
+    text-shadow: 0 0 2px #fff;
+}
+
+.carousel-caption:hover {
+    color: #de1e24;
+    text-shadow: 0 0 2px #fff;
+}
+
+#carouselExampleCaptions {
+    width: 35%;
+    height: auto;
+    text-align: center;
+    margin: 6rem auto 1rem;
 }
 
 /******** FOOTER ********/
