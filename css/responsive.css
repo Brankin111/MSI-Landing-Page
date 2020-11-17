@@ -1,0 +1,76 @@
+/************
+MEDIA QUERIES
+************/
+
+@media screen and (max-width: 1000px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .new-products-image,
+    .laptops-image,
+    .desktops-image,
+    .mascot-image {
+        width: 75%;
+        height: auto;
+    }
+
+    .new-products-section,
+    .laptops-section,
+    .desktops-section,
+    .mascot-section {
+        padding: 2rem;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .logo {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+        align-content: center;
+    }
+
+
+    .new-products-image,
+    .laptops-image,
+    .desktops-image,
+    .mascot-image {
+        width: 55%;
+        height: auto;
+    }
+
+    .new-products-section,
+    .laptops-section,
+    .desktops-section,
+    .mascot-section {
+        padding: 1rem;
+    }
+
+    .footer-logo {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        display: flex;
+    }
+}
