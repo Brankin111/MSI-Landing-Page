@@ -7,5 +7,5 @@ $('.banner')
 // CAROUSEL //
 
 $('.carousel').carousel({
-    interval: 10000
-})
+    interval: 6000
+});
