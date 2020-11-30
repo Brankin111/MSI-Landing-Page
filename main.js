@@ -7,9 +7,10 @@
 // GSAP ANIMATIONS //
 
 gsap.from('#banner-img', {
-    duration: 2.5,
+    duration: 3,
     scale: 3,
-    ease: 'expoScale(1, 3)'
+    ease: 'expoScale(1, 3)',
+    delay: .75
 });
 
 gsap.from('.new-products-grid', {
@@ -17,7 +18,7 @@ gsap.from('.new-products-grid', {
         trigger: '.new-products-grid',
         toggleActions: 'play reverse play reverse',
         start: '-105% top',
-        end: '+=135%',
+        end: '+=160%',
         //markers: true,
     },
     duration: 1.5,
@@ -29,8 +30,8 @@ gsap.from('.laptops-grid', {
     scrollTrigger: {
         trigger: '.laptops-grid',
         toggleActions: 'play reverse play reverse',
-        start: '-90% top',
-        end: '+=135%',
+        start: '-100% top',
+        end: '+=160%',
         //markers: true,
     },
     duration: 1.5,
@@ -42,8 +43,8 @@ gsap.from('.desktops-grid', {
     scrollTrigger: {
         trigger: '.desktops-grid',
         toggleActions: 'play reverse play reverse',
-        start: '-90% top',
-        end: '+=135%',
+        start: '-100% top',
+        end: '+=160%',
         //markers: true,
     },
     duration: 1.5,
@@ -55,7 +56,7 @@ gsap.from('.carousel', {
     scrollTrigger: {
         trigger: '.carousel',
         toggleActions: 'play reverse play reverse',
-        start: '-115% top',
+        start: '-145% top',
         //markers: true,
     },
     duration: 1.5,
