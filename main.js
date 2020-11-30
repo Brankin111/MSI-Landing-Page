@@ -1,9 +1,3 @@
-// HEADER IMAGE ANIMATION //
-
-//$('.banner')
-//    .hide()
-//    .slideDown(2500);
-
 // GSAP ANIMATIONS //
 
 gsap.registerPlugin(ScrollTrigger);
