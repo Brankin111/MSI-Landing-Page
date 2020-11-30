@@ -155,11 +155,10 @@ h2:after {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto 2rem;
-}
-
-.new-products-grid {
     grid: auto-flow;
 }
+
+.new-products-grid:hover {}
 
 .new-products-title {
     font-size: 22px;
@@ -222,11 +221,10 @@ h2:after {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto 2rem;
-}
-
-.laptops-grid {
     grid: auto-flow;
 }
+
+.laptops-grid:hover {}
 
 .laptops-title {
     font-size: 22px;
@@ -289,11 +287,10 @@ h2:after {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto 2rem;
-}
-
-.desktops-grid {
     grid: auto-flow;
 }
+
+.desktops-grid:hover {}
 
 .desktops-title {
     font-size: 22px;

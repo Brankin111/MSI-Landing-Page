@@ -49,6 +49,10 @@ MEDIA QUERIES
         align-content: center;
     }
 
+    a.nav-link {
+        width: auto;
+        overflow-x: hidden;
+    }
 
     .new-products-image,
     .laptops-image,
