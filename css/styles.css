@@ -103,25 +103,40 @@ h2:after {
     border-bottom: 0.4rem solid #de1e24;
 }
 
-/******** NEW PRODUCTS SECTION ********/
+/******** NEW PRODUCTS IMAGES ********/
 
 .new-products-image {
     width: 100%;
     height: auto;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
-.new-products-image:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+.new-products-image:hover {}
+
+#monitors-img-1:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_1_20200909170935_5f589bcf1f1c2.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
 }
+
+#monitors-img-2:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_7_20200120134923_5e253f6311331.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#monitors-img-3:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_10_20200714105642_5f0d1eea84afe.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#monitors-img-4:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_2_20191018133700_5da94f7cb4528.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#monitors-img-5:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_7_20200724141741_5f1a7d05587e8.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#monitors-img-6:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_6_20190904101849_5d6f1f0978516.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+/******** NEW PRODUCTS SECTION ********/
 
 .new-products-section {
     text-align: center;
@@ -155,25 +170,40 @@ h2:after {
     color: #de1e24;
 }
 
-/******** LAPTOPS SECTION ********/
+/******** LAPTOPS IMAGES ********/
 
 .laptops-image {
     width: 100%;
     height: auto;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
-.laptops-image:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+.laptops-image:hover {}
+
+#laptops-img-1:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_0_20200828140848_5f489f70aec8f.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
 }
+
+#laptops-img-2:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_10_20200827163842_5f4771127dffe.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#laptops-img-3:hover {
+    content: url(https://asset.msi.com/resize/image/us/product/product_7_20200912084520_5f5c1a200fdbf.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#laptops-img-4:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_10_20200506181414_5eb28df63e3cb.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#laptops-img-5:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_5_20200309093027_5e659c3301fd8.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#laptops-img-6:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_4_20200323182459_5e788e7bc69fc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+/******** LAPTOPS SECTION ********/
 
 .laptops-section {
     text-align: center;
@@ -207,25 +237,40 @@ h2:after {
     color: #de1e24;
 }
 
-/******** DESKTOPS SECTION ********/
+/******** DESKTOPS IMAGES ********/
 
 .desktops-image {
     width: 100%;
     height: auto;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
-.desktops-image:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+.desktops-image:hover {}
+
+#desktops-img-1:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_9_20181112134543_5be91387c05fa.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
 }
+
+#desktops-img-2:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_8_20170630094242_5955ac92bc20d.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#desktops-img-3:hover {
+    content: url(https://asset.msi.com/resize/image/us/product/product_5_20200324033135_5e790e97b7e86.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#desktops-img-4:hover {
+    content: url(https://asset.msi.com/resize/image/us/product/product_0_20200227050732_5e56de147bdf1.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#desktops-img-5:hover {
+    content: url(https://asset.msi.com/resize/image/global/product/product_8_20190430111506_5cc7bdbaa111e.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+#desktops-img-6:hover {
+    content: url(https://asset.msi.com/resize/image/us/product/product_1_20191109011211_5dc5a1eb3de12.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+}
+
+/******** DESKTOPS SECTION ********/
 
 .desktops-section {
     text-align: center;
@@ -264,33 +309,9 @@ h2:after {
 .mascot-image {
     width: 100%;
     height: auto;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
-.mascot-image:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-
-.mascot-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto 2rem;
-}
-
-.mascot-grid {
-    grid: auto-flow;
-}
+.mascot-image:hover {}
 
 .mascot-title {
     font-size: 22px;
