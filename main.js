@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.matchMedia({
 
-    "(min-width: 1400px)": function () {
+    "(min-width: 1300px)": function () {
 
         gsap.from('#banner-img', {
             duration: 3,
@@ -18,50 +18,50 @@ ScrollTrigger.matchMedia({
                 trigger: '.new-products-grid',
                 toggleActions: 'play reverse play reverse',
                 start: 'top center',
-                end: '+=1100px center',
-                //markers: true,
+                end: 'bottom top',
+                markers: true,
             },
             duration: 1.5,
             x: '150%',
-            delay: .01,
+            //delay: .01,
         });
 
         gsap.from('.laptops-grid', {
             scrollTrigger: {
                 trigger: '.laptops-grid',
                 toggleActions: 'play reverse play reverse',
-                start: 'top center',
-                end: '+=1100px center',
-                //markers: true,
+                start: 'top bottom',
+                end: 'bottom top',
+                markers: true,
             },
             duration: 1.5,
             x: '-150%',
-            delay: .01,
+            //delay: .01,
         });
 
         gsap.from('.desktops-grid', {
             scrollTrigger: {
                 trigger: '.desktops-grid',
                 toggleActions: 'play reverse play reverse',
-                start: 'top center',
-                end: '+=1100px center',
-                //markers: true,
+                start: 'top bottom',
+                end: 'bottom top',
+                markers: true,
             },
             duration: 1.5,
             x: '150%',
-            delay: .01,
+            //delay: .01,
         });
 
         gsap.from('.carousel', {
             scrollTrigger: {
                 trigger: '.carousel',
                 toggleActions: 'play reverse play reverse',
-                start: 'top center',
-                //markers: true,
+                start: 'top bottom',
+                markers: true,
             },
             duration: 1.5,
             x: '-200%',
-            delay: .01,
+            //delay: .01,
         });
     }
 });
