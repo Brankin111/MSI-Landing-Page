@@ -4,22 +4,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.matchMedia({
 
-    "(min-width: 1200px)": function () {
+    "(min-width: 1400px)": function () {
 
-        //        gsap.from('#banner-img', {
-        //            duration: 3,
-        //            scale: 3,
-        //            ease: 'expoScale(1, 3)',
-        //            delay: .75
-        //        });
+        gsap.from('#banner-img', {
+            duration: 3,
+            scale: 3,
+            ease: 'expoScale(1, 3)',
+            delay: .75
+        });
 
         gsap.from('.new-products-grid', {
             scrollTrigger: {
                 trigger: '.new-products-grid',
                 toggleActions: 'play reverse play reverse',
-                start: '-105% top',
-                end: '+=160%',
-                //markers: true,
+                start: 'top center',
+                end: '+=1100px center',
+                markers: true,
             },
             duration: 1.5,
             x: '150%',
@@ -30,9 +30,9 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.laptops-grid',
                 toggleActions: 'play reverse play reverse',
-                start: '-100% top',
-                end: '+=160%',
-                //markers: true,
+                start: 'top center',
+                end: '+=1100px center',
+                markers: true,
             },
             duration: 1.5,
             x: '-150%',
@@ -43,9 +43,9 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.desktops-grid',
                 toggleActions: 'play reverse play reverse',
-                start: '-100% top',
-                end: '+=160%',
-                //markers: true,
+                start: 'top center',
+                end: '+=1100px center',
+                markers: true,
             },
             duration: 1.5,
             x: '150%',
@@ -56,8 +56,8 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.carousel',
                 toggleActions: 'play reverse play reverse',
-                start: '-145% top',
-                //markers: true,
+                start: 'top center',
+                markers: true,
             },
             duration: 1.5,
             x: '-200%',
