@@ -1,7 +1,5 @@
 // GSAP ANIMATIONS //
 
-gsap.registerPlugin(ScrollTrigger);
-
 ScrollTrigger.matchMedia({
 
     "(min-width: 1300px)": function () {
@@ -17,7 +15,7 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.new-products-grid',
                 toggleActions: 'play reverse play reverse',
-                start: 'top center',
+                start: 'top bottom',
                 end: 'bottom top',
                 markers: true,
             },
