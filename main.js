@@ -1,71 +1,96 @@
-// GSAP ANIMATIONS //
+// CAROUSEL //
+
+$('.carousel').carousel({
+    interval: 6000
+});
+
+
+//BANNER ANIMATION //
+
+//        gsap.from('#banner-img', {
+//            duration: 3,
+//            scale: 3,
+//            ease: 'expoScale(1, 3)',
+//            delay: .75
+//        });
+
+
+// PRODUCT SECTION SCROLLTRIGGER ANIMATIONS //
+
+gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.matchMedia({
-
     "(min-width: 1300px)": function () {
 
-        gsap.from('#banner-img', {
-            duration: 3,
-            scale: 3,
-            ease: 'expoScale(1, 3)',
-            delay: .75
-        });
-
-        gsap.from('.new-products-grid', {
+        // MONITOR SECTION ANIMATIONS //
+        const monitorsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.new-products-grid',
                 toggleActions: 'play reverse play reverse',
                 start: 'top bottom',
                 end: 'bottom top',
-                markers: true,
+                markers: true
             },
-            duration: 1.5,
-            x: '150%',
-            //delay: .01,
+            defaults: {
+                duration: 1.5
+            }
         });
 
-        gsap.from('.laptops-grid', {
+        monitorsTimeline.from('.new-products-grid', {
+            x: '150%',
+        });
+
+        // LAPTOP SECTION ANIMATIONS //
+        const laptopsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.laptops-grid',
                 toggleActions: 'play reverse play reverse',
                 start: 'top bottom',
                 end: 'bottom top',
-                markers: true,
+                markers: true
             },
-            duration: 1.5,
-            x: '-150%',
-            //delay: .01,
+            defaults: {
+                duration: 1.5
+            }
         });
 
-        gsap.from('.desktops-grid', {
+        laptopsTimeline.from('.laptops-grid', {
+            x: '-150%',
+        });
+
+        // DESKTOP SECTION ANIMATIONS //
+        const desktopsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.desktops-grid',
                 toggleActions: 'play reverse play reverse',
                 start: 'top bottom',
                 end: 'bottom top',
-                markers: true,
+                markers: true
             },
-            duration: 1.5,
-            x: '150%',
-            //delay: .01,
+            defaults: {
+                duration: 1.5
+            }
         });
 
-        gsap.from('.carousel', {
+        desktopsTimeline.from('.desktops-grid', {
+            x: '150%',
+        });
+
+        // MASCOT SECTION ANIMATIONS //
+        const carouselTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.carousel',
                 toggleActions: 'play reverse play reverse',
                 start: 'top bottom',
-                markers: true,
+                markers: true
             },
-            duration: 1.5,
+            defaults: {
+                duration: 1.5
+            }
+        });
+
+        carouselTimeline.from('.carousel', {
             x: '-200%',
-            //delay: .01,
         });
     }
-});
-
-// CAROUSEL //
-
-$('.carousel').carousel({
-    interval: 6000
 });
