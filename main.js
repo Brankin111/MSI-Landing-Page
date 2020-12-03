@@ -27,8 +27,8 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.new-products-grid',
                 toggleActions: 'play reverse play reverse',
-                start: 'top bottom',
-                end: 'bottom top',
+                //start: 'top bottom',
+                //end: 'bottom top',
                 markers: true
             },
             defaults: {
@@ -45,8 +45,8 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.laptops-grid',
                 toggleActions: 'play reverse play reverse',
-                start: 'top bottom',
-                end: 'bottom top',
+                //start: 'top bottom',
+                //end: 'bottom top',
                 markers: true
             },
             defaults: {
@@ -63,8 +63,8 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.desktops-grid',
                 toggleActions: 'play reverse play reverse',
-                start: 'top bottom',
-                end: 'bottom top',
+                //start: 'top bottom',
+                //end: 'bottom top',
                 markers: true
             },
             defaults: {
@@ -81,7 +81,7 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.carousel',
                 toggleActions: 'play reverse play reverse',
-                start: 'top bottom',
+                //start: 'top bottom',
                 markers: true
             },
             defaults: {
