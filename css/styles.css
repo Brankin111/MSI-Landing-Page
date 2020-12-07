@@ -110,8 +110,6 @@ h2:after {
     height: auto;
 }
 
-.new-products-image:hover {}
-
 #monitors-img-1:hover {
     content: url(https://asset.msi.com/resize/image/global/product/product_1_20200909170935_5f589bcf1f1c2.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
 }
@@ -156,9 +154,8 @@ h2:after {
     max-width: 1280px;
     margin: 0 auto 2rem;
     grid: auto-flow;
+    position: relative;
 }
-
-.new-products-grid:hover {}
 
 .new-products-title {
     font-size: 22px;
@@ -175,8 +172,6 @@ h2:after {
     width: 100%;
     height: auto;
 }
-
-.laptops-image:hover {}
 
 #laptops-img-1:hover {
     content: url(https://asset.msi.com/resize/image/global/product/product_0_20200828140848_5f489f70aec8f.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
@@ -222,9 +217,8 @@ h2:after {
     max-width: 1280px;
     margin: 0 auto 2rem;
     grid: auto-flow;
+    position: relative;
 }
-
-.laptops-grid:hover {}
 
 .laptops-title {
     font-size: 22px;
@@ -241,8 +235,6 @@ h2:after {
     width: 100%;
     height: auto;
 }
-
-.desktops-image:hover {}
 
 #desktops-img-1:hover {
     content: url(https://asset.msi.com/resize/image/global/product/product_9_20181112134543_5be91387c05fa.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
@@ -288,9 +280,8 @@ h2:after {
     max-width: 1280px;
     margin: 0 auto 2rem;
     grid: auto-flow;
+    position: relative;
 }
-
-.desktops-grid:hover {}
 
 .desktops-title {
     font-size: 22px;
