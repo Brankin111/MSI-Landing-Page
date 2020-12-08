@@ -14,7 +14,7 @@ gsap.from('#banner-img', {
 });
 
 // PRODUCT SECTION SCROLLTRIGGER ANIMATIONS //
-//***** BROKEN :( *****//
+//*************** BROKEN :( ***************//
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -26,10 +26,10 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.new-products-grid',
                 toggleActions: 'play reverse play reset',
-                markers: true,
                 start: 'top bottom',
-                end: 'bottom bottom',
-                scrub: 4
+                end: 'top center',
+                scrub: 5,
+                //markers: true
             },
             defaults: {
                 //duration: 1.5
@@ -45,10 +45,10 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.laptops-grid',
                 toggleActions: 'play reverse play reset',
-                markers: true,
                 start: 'top bottom',
-                end: 'bottom bottom',
-                scrub: 4
+                end: 'top center',
+                scrub: 5,
+                //markers: true
             },
             defaults: {
                 //duration: 1.5
@@ -64,10 +64,10 @@ ScrollTrigger.matchMedia({
             scrollTrigger: {
                 trigger: '.desktops-grid',
                 toggleActions: 'play reverse play reverse',
-                markers: true,
                 start: 'top bottom',
-                end: 'bottom bottom',
-                scrub: 4
+                end: 'top center',
+                scrub: 5,
+                //markers: true
             },
             defaults: {
                 //duration: 1.5
