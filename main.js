@@ -13,13 +13,14 @@ gsap.from('#banner-img', {
     delay: 1
 });
 
+
 // PRODUCT SECTION SCROLLTRIGGER ANIMATIONS //
-//*************** BROKEN :( ***************//
 
 gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.matchMedia({
     "(min-width: 1300px)": function () {
+
 
         // MONITOR SECTION ANIMATIONS //
         let monitorsTimeline = gsap.timeline({
@@ -28,17 +29,14 @@ ScrollTrigger.matchMedia({
                 toggleActions: 'play reverse play reset',
                 start: 'top bottom',
                 end: 'top center',
-                scrub: 5,
-                //markers: true
-            },
-            defaults: {
-                //duration: 1.5
+                scrub: 5
             }
         });
 
         monitorsTimeline.from('.new-products-grid', {
             x: innerWidth * 1
         });
+
 
         // LAPTOP SECTION ANIMATIONS //
         let laptopsTimeline = gsap.timeline({
@@ -47,17 +45,14 @@ ScrollTrigger.matchMedia({
                 toggleActions: 'play reverse play reset',
                 start: 'top bottom',
                 end: 'top center',
-                scrub: 5,
-                //markers: true
-            },
-            defaults: {
-                //duration: 1.5
+                scrub: 5
             }
         });
 
         laptopsTimeline.from('.laptops-grid', {
             x: innerWidth * -1
         });
+
 
         // DESKTOP SECTION ANIMATIONS //
         let desktopsTimeline = gsap.timeline({
@@ -66,33 +61,12 @@ ScrollTrigger.matchMedia({
                 toggleActions: 'play reverse play reverse',
                 start: 'top bottom',
                 end: 'top center',
-                scrub: 5,
-                //markers: true
-            },
-            defaults: {
-                //duration: 1.5
+                scrub: 5
             }
         });
 
         desktopsTimeline.from('.desktops-grid', {
             x: innerWidth * 1
         });
-
-        // MASCOT SECTION ANIMATIONS //
-        //        const carouselTimeline = gsap.timeline({
-        //            scrollTrigger: {
-        //                trigger: '.carousel',
-        //                toggleActions: 'play reverse play reverse',
-        //                markers: true
-        //            },
-        //            defaults: {
-        //                duration: 1.5,
-        //                start: 'top bottom',
-        //            }
-        //        });
-        //
-        //        carouselTimeline.from('.carousel', {
-        //            x: '-200%',
-        //        });
     }
 });
