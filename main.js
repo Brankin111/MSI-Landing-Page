@@ -25,13 +25,14 @@ ScrollTrigger.matchMedia({
         let monitorsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.new-products-grid',
-                toggleActions: 'play reverse play reverse',
+                toggleActions: 'play reverse play reset',
                 markers: true,
                 start: 'top bottom',
-                end: 'bottom top'
+                end: 'bottom bottom',
+                scrub: 4
             },
             defaults: {
-                duration: 1.5
+                //duration: 1.5
             }
         });
 
@@ -43,7 +44,7 @@ ScrollTrigger.matchMedia({
         let laptopsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.laptops-grid',
-                toggleActions: 'play reverse play reverse',
+                toggleActions: 'play reverse play reset',
                 markers: true,
                 start: 'top bottom',
                 end: 'bottom bottom',
