@@ -347,6 +347,15 @@ h5 {
     margin: 5rem auto 2rem;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    outline: #de1e24;
+    background-color: #000;
+    background-size: 100%, 100%;
+    border-radius: 25%;
+    box-shadow: 0 0 4px #fff;
+}
+
 /******** FOOTER ********/
 
 footer {

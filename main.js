@@ -8,7 +8,7 @@ $('.carousel').carousel({
 //BANNER ANIMATION //
 
 gsap.from('#banner-img', {
-    duration: 3.5,
+    duration: 3,
     opacity: 0,
     delay: 1
 });
