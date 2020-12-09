@@ -26,12 +26,16 @@ li {
 
 a {
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 p {
     font-size: 19px;
     font-weight: bold;
+}
+
+.control-hover-effect {
+    height: 315;
 }
 
 /******** HEADER ********/
