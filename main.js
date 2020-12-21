@@ -7,11 +7,11 @@ $(document).ready(function () {
 
 
     //BANNER ANIMATION //
-    gsap.from('#banner-img', {
-        duration: 1,
-        opacity: 0,
-        delay: .1
-    });
+//    gsap.from('#banner-img', {
+//        duration: 1,
+//        opacity: 0,
+//        delay: .1
+//    });
 
 
     // PRODUCT SECTION SCROLLTRIGGER ANIMATIONS //
