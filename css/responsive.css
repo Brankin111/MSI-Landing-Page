@@ -9,6 +9,15 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 1000px) {
+    .logo {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        justify-content: center;
+        display: flex;
+    }
+
     nav ul {
         flex-direction: column;
         margin: 0;
@@ -40,15 +49,6 @@ MEDIA QUERIES
         margin: 0;
         padding: 0;
         text-align: center;
-    }
-
-    .logo {
-        margin-top: 15px;
-        width: 100%;
-        height: auto;
-        position: relative;
-        justify-content: center;
-        display: flex;
     }
 
     .new-products-image,
