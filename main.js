@@ -23,7 +23,7 @@ ScrollTrigger.matchMedia({
 
 
         // MONITOR SECTION ANIMATIONS //
-        let monitorsTimeline = gsap.timeline({
+        var monitorsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.new-products-grid',
                 toggleActions: 'play reverse play reset',
@@ -39,7 +39,7 @@ ScrollTrigger.matchMedia({
 
 
         // LAPTOP SECTION ANIMATIONS //
-        let laptopsTimeline = gsap.timeline({
+        var laptopsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.laptops-grid',
                 toggleActions: 'play reverse play reset',
@@ -55,7 +55,7 @@ ScrollTrigger.matchMedia({
 
 
         // DESKTOP SECTION ANIMATIONS //
-        let desktopsTimeline = gsap.timeline({
+        var desktopsTimeline = gsap.timeline({
             scrollTrigger: {
                 trigger: '.desktops-grid',
                 toggleActions: 'play reverse play reverse',
@@ -69,4 +69,11 @@ ScrollTrigger.matchMedia({
             x: innerWidth * 1
         });
     }
+});
+
+// PAGE REFRESH IMAGE RELOAD
+$(document).ready(function(){
+    $(window).resize(function(){
+        window.location.href = window.location.href;
+    });  
 });
