@@ -7,18 +7,18 @@ $(document).ready(function () {
 
 
     //BANNER ANIMATION //
-//    gsap.from('#banner-img', {
-//        duration: 1,
-//        opacity: 0,
-//        delay: .1
-//    });
+    //    gsap.from('#banner-img', {
+    //        duration: 1,
+    //        opacity: 0,
+    //        delay: .1
+    //    });
 
 
     // PRODUCT SECTION SCROLLTRIGGER ANIMATIONS //
     gsap.registerPlugin(ScrollTrigger);
 
     ScrollTrigger.matchMedia({
-        "(min-width: 1300px)": function () {
+        "(min-width: 1500px)": function () {
 
 
             // MONITOR SECTION ANIMATIONS //
