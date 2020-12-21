@@ -2,9 +2,17 @@
 MEDIA QUERIES
 ************/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
     header {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+        align-content: center;
     }
 
     .new-products-image,
@@ -41,12 +49,6 @@ MEDIA QUERIES
         position: relative;
         justify-content: center;
         display: flex;
-    }
-
-    nav ul {
-        flex-direction: column;
-        margin: 0;
-        align-content: center;
     }
 
     .new-products-image,
